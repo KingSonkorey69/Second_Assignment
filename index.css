@@ -100,9 +100,10 @@ a {
     border-color: #3882F6;
     font-family: 'RobotoBold', sans-serif;
 }
-.main_picture {
-    width: 50%;
-}
+/* .main_picture {
+    width: 250px;
+    height:auto;
+} */
 .two {
     display: flex;
     flex-direction: column;
