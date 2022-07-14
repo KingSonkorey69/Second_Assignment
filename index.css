@@ -47,7 +47,7 @@ a {
 .header_text {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 5%;
     align-items: center;
 }
@@ -100,10 +100,10 @@ a {
     border-color: #3882F6;
     font-family: 'RobotoBold', sans-serif;
 }
-/* .main_picture {
+.main_picture img {
     width: 250px;
     height:auto;
-} */
+}
 .two {
     display: flex;
     flex-direction: column;
@@ -136,7 +136,7 @@ a {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 600px;
+    height: 500px;
     align-items: center;
 }
 #book_text{
@@ -163,7 +163,7 @@ a {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 700px;
+    height: 600px;
     align-items: center;
 }
 #movie_text{
@@ -175,7 +175,7 @@ a {
 .movie_cards{
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 30px;
     justify-content: center;
 }
 .movie_cards img {
@@ -187,9 +187,10 @@ a {
     border-radius: 20px;
 }
 .three {
+    margin-top: 3%;
     display: flex;
     background-color: #E5E7EB;
-    height: 400px;
+    height: 200px;
     width: auto;
     padding: 12px 10px;
 }
@@ -199,15 +200,16 @@ a {
     font-family: 'ThinItalic', sans-serif;
 }
 .four{
+    margin-top: 3%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
-    height: 200px;
+    height: 100px;
     align-items: center;
     background-color: #3882F6;
 }
-figure {
+#figure_text {
     display: flex;
     justify-content: flex-end;
     font-family: 'RobotoBold', sans-serif;
@@ -235,10 +237,11 @@ figure {
     font-family: 'RobotoBold', sans-serif;
 }
 #footer {
+    margin-top: 3%;
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100px;
+    height: 200px;
     background-color: #1F2937;
     align-items: center;
     justify-content: space-around;
